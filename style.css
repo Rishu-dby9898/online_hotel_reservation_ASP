@@ -1,0 +1,54 @@
+body
+{
+ background-color:#5CB3FF;
+ color:#FFFFFF;
+}
+table
+{
+ background-color:#5CB3FF;
+ color:#FFFFFF;
+font-size:20px;
+}
+input
+{
+background-color:#FF7F50;
+color:#FFFFFF;
+font-size:20px;
+}
+.bt
+{
+background-color:#b23850;
+color:#e7e3d4;
+}
+a:link
+{
+height:30px;
+width:100px;
+font-size:18px;
+
+background-color:;
+color:white;
+}
+a:visited
+{
+font-size:18px;
+
+background-color:green;
+color:white;
+}
+a:hover
+{
+font-size:18px;
+
+background-color:RED;
+color:white;
+}
+a:active
+{
+font-size:18px;
+
+background-color:red;
+color:white;
+}
+
+

@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Online Hotel Reservation</title>
+<script language="javascript">
+var a=new Array(11)
+a[0]="image9.jpg"
+a[1]="image10.jpg"
+a[2]="image8.jpg"
+a[3]="image7.jpg"
+a[4]="image6.jpg"
+a[5]="image5.jpg"
+a[6]="image4.jpg"
+a[7]="image3.jpg"
+a[8]="image2.jpg"
+a[9]="image1.jpg"
+a[10]="image.jpg"
+var i=1
+function animation()
+{
+ document.getElementById("i1").src=a[i]
+if(i==10)
+{
+i=0
+}
+else
+{
+i=i+1
+}
+}
+window.setInterval("animation()",2400)
+</script></head>
+<body>
+
+<iframe src="head.htm" scrolling="no" style="position:absolute;left:0;top:0;" height="200" width="1520">
+</iframe>
+
+<iframe src="link.htm" scrolling="no" style="position:absolute;left:0;top:202;" height="1000" width="200">
+</iframe>
+
+<iframe src="usericon.htm" scrolling="no" style="position:absolute;left:202;top:202;" height="100" width="1320">
+</iframe>
+
+
+<div style="position:absolute;left:202;top:300;" height="500" width="998">
+<div style="position:absolute;left:2;top:6;width:400">
+
+<img src="image11.jpg" height="900" width="1320" id="i1">
+
+</div>
+</div>
+</body>
+</html>
